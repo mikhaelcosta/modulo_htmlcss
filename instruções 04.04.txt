@@ -1,0 +1,25 @@
+-titulo primeiro formulario html 
+
+-cabeçalho com titulo de header h1 - bem vindo a minha pagina web
+
+-grupo de navegação com tres itens - sobre, serviços e contato
+
+-usar tag main para definir conteudo principal
+
+-dentro dela div para identificar conteudodentro da div havera um article com header h2 - sobre
+-esta é uma pagina de exemplo criada para mostrar o uso das principais tags html 
+-colocar uma imagem com tema sobre com text alternativo
+
+-seção com header h2 - serviços 
+-dentro dela lista não ordenada com web design, desenvolvimento web e hospedagem de site
+
+-outra seção com header h2 - contatos
+-paragrafo com entre em contato conosco
+-dentro dela formulario com contato, metodo post, label de nome, input obrigatorio de texto, outro label de email obriagatorio, label de textarea para mensagem -com 4 linhas, 50 colunas e obrigatoria
+
+-por ultimo botão submit com valor enviar
+
+-fora da div, criar um aside com header /lateral
+-paragrafo com algumas infos add podem ser exibidas aqui
+
+-por ultimo um footer com copyright todos os direitos reservados e outro container com endereço, telefone e email
