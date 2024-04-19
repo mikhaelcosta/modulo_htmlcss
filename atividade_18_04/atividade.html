@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CODE & COFFEE</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="#" class="logo">code & coffee</a>
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Receitas</a></li>
+                <li><a href="#">Sobre nós</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+            <a class="github">GitHub</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="principal-background">
+            <section class="principal">
+                <header class="principal-conteudo">
+                    <span class="destaque">novidade</span>
+                    <h1>Encontre a receita perfeita!</h1>
+                    <hr>
+                    <h2 class="principal-subtitulo">Explore diversas variações da bebida favorita entre devs ao redor do mundo!</h2>
+                </header>
+                <div class="principal-imagens-container">
+                    <img src="imagens/imagem_1.png" alt="">
+                    <img src="imagens/imagem_2.png" alt="">
+                    <img src="imagens/imagem_3.png" alt="">
+                    <img src="imagens/imagem_4.png" alt="">
+                </div>
+            </section>
+
+            <section class="receitas">
+                <header class="receitas-cabecalho">
+                    <span class="destaque">receitas</span>
+                    <h2 class="receitas-titulo">Confira as últimas receitas</h2>
+                    <p class="receitas-subtitulo">Dê uma olhadas nas receitas mais amadas!</p>
+                </header>
+
+                <div class="receitas-card-container">
+                    <div class="receitas-card">
+                        <header class="receitas-card-cabecalho">
+                            <div>
+                                <span class="destaque">em alta</span>
+                                <h3 class="receitas-card-titulo">Cappuccino</h3>
+                            </div>
+                            <p class="receitas-avaliacao">Extraordinário · 4/4</p>
+                        </header>
+                        <p class="receitas-descricao">Uma bebida ideal para os amantes de doce e cremosidade.</p>
+                        <p class="receitas-autor">Fulano de Tal</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <aside>
+            <article>
+                <h2 class="contato-titulo">Entre em contato</h2>
+                <form action="/contato" method="post">
+                    <div class="contato-campo">
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" name="nome" required placeholder="Ex: João da Silva">
+                    </div>
+
+                    <div class="contato-campo">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required placeholder="exemplo@email.com">
+                    </div>
+
+                    <div class="contato-campo">
+                        <label for="mensagem"></label>
+                        <textarea name="mensagem" id="mensagem" cols="50" rows="4" required placeholder="Deixe sua mensagem."></textarea>
+                    </div>
+
+                    <div class="contato-campo">
+                        <label for="mensagem"></label>
+                        <textarea name="mensagem" id="mensagem" cols="50" rows="3" required placeholder="Caso tenha algum comentário adicional, escreva aqui."></textarea>
+                    </div>
+
+                    <div class="botao">
+                        <button type="submit">Enviar</button>
+                        <button type="reset">Limpar</button>
+                    </div>
+                </form>
+            </article>
+        </aside>
+    </main>
+    
+    <footer>
+        <p><em>&copy 2024 CODE & COFFEE</em></p>
+        <p><em>Feito por Mikhael Costa</em></p>
+    </footer>
+</body>
+</html>
